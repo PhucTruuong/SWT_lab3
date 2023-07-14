@@ -1,0 +1,366 @@
+.home-container {
+
+    .home-content {
+        border          : 1px solid #ffffff;
+        padding-bottom  : 8%;
+        background-color: #ffffff;
+        border-bottom   : 4px solid #087c06;
+
+        .banner-container {
+            margin-bottom: 1%;
+            position     : relative;
+
+            .banner-image {
+                width: 100%;
+            }
+
+            .banner-title {
+                position        : absolute;
+                top             : 10%;
+                font-size       : 1.7em;
+                font-style      : italic;
+                left            : 5%;
+                background-color: rgba(155, 216, 140, 0.936);
+                border-radius   : 10px;
+                padding         : 2%;
+
+                @media screen and (max-width: 768px) {
+                    width    : 90%;
+                    font-size: 20px;
+                }
+
+                .signup-btn {
+                    margin-top: 2%;
+
+                    button {
+                        background-color: rgb(63, 63, 63, 0.7);
+                        border          : #404040;
+
+                        &:hover {
+                            background-color: rgb(63, 63, 63);
+                        }
+                    }
+                }
+            }
+        }
+
+        .About {
+            text-align      : center;
+            color           : #235936;
+            width           : 100%;
+            justify-self    : center;
+            font-weight     : bold;
+            margin-bottom   : 4rem;
+            margin-top      : 1rem;
+            background-color: #85c697;
+            padding         : 2rem;
+            border-radius   : 2rem;
+
+            h1 {
+                font-weight  : bolder;
+                margin-bottom: 3rem;
+            }
+        }
+
+        .MoveBird {
+            display         : flex;
+            align-items     : center;
+            color           : #235936;
+            margin-bottom   : 4rem;
+            background-color: #85c697;
+            padding         : 2rem;
+            border-radius   : 2rem;
+
+            img {
+                margin-right: 2rem;
+            }
+
+            .MoveBird-Text {
+
+                h1 {
+                    font-weight: bolder;
+                }
+
+                h2 {
+                    font-size  : 2rem;
+                    font-weight: bold;
+                }
+
+                p {
+                    font-weight  : bold;
+                    margin-bottom: 0.5rem;
+                }
+            }
+        }
+
+        .WhereMove {
+            display         : flex;
+            align-items     : center;
+            color           : #235936;
+            margin-bottom   : 6rem;
+            background-color: #85c697;
+            padding         : 2rem;
+            border-radius   : 2rem;
+
+            img {
+                margin-right: 2rem;
+            }
+
+            .WhereMove-Text {
+                h1 {
+                    font-weight: bolder;
+                }
+
+                p {
+                    font-weight  : bold;
+                    margin-bottom: 0.5rem;
+                }
+            }
+        }
+
+        .Board-Title {
+            text-align : center;
+            color      : #235936;
+            font-size  : 4rem;
+            font-weight: bold;
+
+            @media screen and (max-width: 970px) {
+                font-size    : 6vw;
+                margin-bottom: 3%;
+            }
+        }
+
+        .video {
+            display       : grid;
+            grid-gap      : 50px;
+            align-items   : center;
+            padding-bottom: 50px;
+
+            @media screen and (max-width: 970px) {
+                display: block;
+
+                .youtube-video {
+                    width        : 100% !important;
+                    margin-bottom: 2%;
+                }
+            }
+
+            .video-text {
+
+                grid-column     : 2;
+                font-weight     : bold;
+                text-align      : center;
+                background-color: #85c697;
+                font-size       : 1.3rem;
+                border-radius   : 0.5rem;
+                padding-inline  : 5rem;
+                padding         : 2rem;
+            }
+        }
+
+        .search-location-container {
+            border-radius   : 15px;
+            background-color: #9ECE9D;
+            padding         : 40px 70px;
+            padding-bottom  : 4%;
+
+            @media screen and (max-width: 970px) {
+                padding: 4%;
+            }
+
+            .title {
+                color        : #a30b0b;
+                font-size    : 1.7em;
+                font-weight  : 700;
+                margin-bottom: 50px;
+            }
+
+            .search-bar {
+                .search-row {
+                    display    : flex;
+                    width      : 70%;
+                    align-items: center;
+
+                    @media screen and (max-width: 990px) {
+                        width: 100%;
+                    }
+
+                    .form-label {
+                        font-style: italic;
+                        font-size : 1.1em;
+                    }
+
+
+                    .search-btn {
+                        line-height     : 25px;
+                        height          : 40px;
+                        margin-top      : 14px;
+                        margin-left     : 30px;
+                        width           : 100px;
+                        font-size       : 1.2em;
+                        color           : rgb(0, 0, 0);
+                        background-color: #4c9b4c;
+                        font-weight     : 600;
+
+                        &:hover {
+                            background-color: #326332;
+                            color           : white;
+                        }
+                    }
+                }
+
+            }
+
+            .google-map-container {
+                margin-top      : 2%;
+                width           : 90%;
+                background-color: #85c697;
+                padding         : 2%;
+                border-radius   : 15px;
+                display         : flex;
+                gap             : 30px;
+
+                .google-map {
+                    height: 45vh;
+                    width : 55vw;
+
+                    @media screen and (max-width: 970px) {
+                        height: 30vh;
+                        width : 74vw;
+                    }
+                }
+
+                @media screen and (max-width: 970px) {
+                    margin-top     : 7%;
+                    padding        : 5% 3%;
+                    justify-content: center;
+                    flex-wrap      : wrap;
+                    width          : 100%;
+                }
+
+                .distance-duration {
+                    .form-label {
+                        font-weight: 600;
+                    }
+                }
+
+            }
+        }
+
+        .homepage-info-container {
+            display      : flex;
+            gap          : 30px;
+            margin-top   : 30px;
+            margin-bottom: 3%;
+
+            @media screen and (max-width: 990px) {
+                flex-direction: column;
+            }
+
+            .news-container {
+                width           : 32%;
+                background-color: #BAE1A7;
+                border-radius   : 15px;
+
+                @media screen and (max-width: 990px) {
+                    width: 100%;
+                }
+
+                .title {
+                    font-size    : 1.5em;
+                    font-weight  : 600;
+                    text-align   : center;
+                    margin-top   : 30px;
+                    margin-bottom: 10px;
+                }
+
+                .content {
+                    padding: 10px 45px;
+
+                    .news-item {
+                        margin-bottom: 20px;
+                        font-weight  : 600;
+                        color        : #404040;
+
+                        i {
+                            color      : #818181;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+
+            .shipping-services-container {
+                width           : 32%;
+                background-color: #BAE1A7;
+                border-radius   : 15px;
+
+                @media screen and (max-width: 990px) {
+                    width: 100%;
+                }
+
+                .title {
+                    font-size    : 1.5em;
+                    font-weight  : 600;
+                    text-align   : center;
+                    margin-top   : 30px;
+                    margin-bottom: 10px;
+                }
+
+                .content {
+                    padding: 10px 45px;
+
+                    .service-item {
+                        font-weight: 600;
+                        color      : #404040;
+
+                        .service-title {
+                            margin-bottom: 20px;
+                            font-size    : 1.2em;
+                        }
+
+                        .service-detail {
+                            margin-bottom: 10px;
+                            margin-left  : 20px;
+
+                            &:last-child {
+                                margin-bottom: 30px;
+                            }
+                        }
+                    }
+
+                }
+            }
+
+            .shipping-condition-container {
+                width           : 32%;
+                background-color: #BAE1A7;
+                border-radius   : 15px;
+
+                @media screen and (max-width: 990px) {
+                    width: 100%;
+                }
+
+                .title {
+                    font-size    : 1.5em;
+                    font-weight  : 600;
+                    text-align   : center;
+                    margin-top   : 30px;
+                    margin-bottom: 10px;
+                }
+
+                .content {
+                    padding: 10px 45px;
+
+                    .condition-item {
+                        color        : #404040;
+                        margin-bottom: 20px;
+                        font-weight  : 600;
+                    }
+
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,76 @@
+.history-outer {
+    border          : 1px solid #9ECE9D;
+    padding-bottom  : 8%;
+    background-color: #9ECE9D;
+    border-bottom   : 4px solid #087c06;
+
+    .view-history-container {
+        padding   : 0 4%;
+        margin-top: 5%;
+
+        @media screen and (max-width: 970px) {
+            .title-filter {
+                width: 80%;
+            }
+        }
+
+        .Header {
+            text-align      : center;
+            border-radius   : 15px;
+            background-color: #519345;
+            padding         : 1% 0;
+            color           : white;
+            width           : 30%;
+
+            @media screen and (max-width: 970px) {
+                width: 60%;
+            }
+
+        }
+
+        .history-table {
+            border-radius: 15px;
+
+            .tableCell {
+                font-size: 1vw;
+
+                @media screen and (max-width: 970px) {
+                    font-size: smaller;
+                }
+            }
+
+            @media screen and (max-width: 970px) {
+                .created-time {
+                    width: 100% !important;
+                }
+            }
+
+            .sender {
+                font-size: 1vw;
+                width    : 17%;
+
+                @media screen and (max-width: 970px) {
+                    font-size: smaller;
+                    width    : 50%;
+                }
+            }
+
+            .button-group {
+                width: 17%;
+
+                button {
+                    font-size: 0.85vw;
+
+                    @media screen and (max-width: 970px) {
+                        font-size: 10px;
+                        margin   : 2% 0 !important;
+                    }
+                }
+            }
+        }
+
+        .back-button {
+            margin: 3% 0;
+        }
+    }
+}

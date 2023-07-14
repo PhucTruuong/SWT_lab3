@@ -1,0 +1,155 @@
+.manage-routetrip-container {
+    width         : 90%;
+    padding       : 2%;
+    padding-bottom: 5%;
+
+    .title {
+        font-size    : 2em;
+        font-weight  : 600;
+        margin-bottom: 3%;
+        background-color: #26a178;
+        border-radius   : 2rem;
+        padding         : 1.5rem;
+        color           : white;
+        width           : 35%;
+        text-align      : center;
+    }
+
+    .route-trip-body {
+        .manage-route {
+
+            .accordion-button {
+                font-size  : 0.8em;
+                font-weight: 600;
+                color      : rgb(62, 54, 63);
+            }
+
+            .accordion-body {
+                .add-btn {
+                    margin: 2% 0;
+                }
+
+                .table {
+                    button {
+                        font-size: 0.85vw;
+                    }
+                }
+
+                .edit-route {
+                    margin-top      : 5%;
+                    width           : 90%;
+                    background-color: aliceblue;
+                    border-radius   : 15px;
+                    padding         : 2%;
+                    border          : 1px solid rgb(193, 218, 240);
+
+                    .edit-route-title {
+                        font-weight  : 500;
+                        font-size    : 1.4em;
+                        margin-bottom: 2%;
+                    }
+
+                    .edit-body {
+                        .add-station-btn {
+                            margin-bottom: 2%;
+                        }
+                    }
+                }
+            }
+        }
+
+        .manage-trip {
+            .accordion-button {
+                font-size  : 0.8em;
+                font-weight: 600;
+                color      : rgb(62, 54, 63);
+            }
+
+            .accordion-body {
+                .add-btn {
+                    margin: 2% 0;
+                }
+            }
+
+            .route-title {
+                font-size    : 1.7em;
+                font-weight  : 600;
+                margin-bottom: 1%;
+                margin-top   : 2%;
+            }
+
+            .route-list {
+                width        : 80%;
+                min-width    : 300px;
+                margin-bottom: 4%;
+
+                .css-13cymwt-control {
+                    border-radius: 20px;
+                }
+
+                .detail-title {
+                    font-size  : 1.3em;
+                    font-weight: 600;
+                    margin     : 3% 0;
+                }
+
+                .route-detail {
+                    .table {
+                        background-color: white;
+                    }
+                }
+            }
+
+            .trip-title {
+                font-size  : 1.3em;
+                font-weight: 600;
+            }
+
+            .trip-list {
+                width    : 90%;
+                min-width: 300px;
+            }
+
+        }
+
+        .manage-vehicle {
+            .accordion-button {
+                font-size  : 0.8em;
+                font-weight: 600;
+                color      : rgb(62, 54, 63);
+            }
+
+            .accordion-body {
+                .vehicle-title {
+                    font-size  : 1.5em;
+                    font-weight: 600;
+                    margin     : 2% 0;
+                }
+
+                .vehicle-list {
+                    width: 70%;
+                }
+            }
+        }
+
+        .manage-station {
+            .accordion-button {
+                font-size  : 0.8em;
+                font-weight: 600;
+                color      : rgb(62, 54, 63);
+            }
+
+            .accordion-body {
+                .station-title {
+                    font-size  : 1.5em;
+                    font-weight: 600;
+                    margin     : 2% 0;
+                }
+
+                .station-list {
+                    width: 70%;
+                }
+            }
+        }
+    }
+}

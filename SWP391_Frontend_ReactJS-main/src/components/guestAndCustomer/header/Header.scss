@@ -1,0 +1,194 @@
+.header-container {
+
+    .banner-container {
+        position        : relative;
+        background-color: #9ECE9D;
+        height          : 17vh;
+
+        .logo-image {
+            height  : 15vh;
+            position: absolute;
+            left    : 0;
+            top     : 0;
+        }
+
+        .signin-button {
+            background-color: #00770c;
+            position        : absolute;
+            border-radius   : 30px;
+            right           : 18%;
+            bottom          : 15px;
+            width           : 120px;
+            height          : 40px;
+            font-size       : 1.1em;
+
+            &:hover {
+                background-color: #224b26;
+            }
+
+            @media screen and (max-width: 500px) {
+                right: 15px;
+            }
+        }
+
+        .profile-button {
+            background-color: #00770c;
+            position        : absolute;
+            border-radius   : 30px;
+            right           : 23%;
+            bottom          : 15px;
+            width           : 170px;
+            height          : 40px;
+            font-size       : 1.1em;
+            border          : none;
+            display         : flex;
+            align-items     : center;
+            gap             : 15px;
+
+            svg {
+                background-color: black;
+                border-radius   : 15px;
+                font-size       : 1.5em;
+                color           : white;
+            }
+
+            .username {
+                color: white;
+            }
+
+            &:hover {
+                background-color: #224b26;
+            }
+
+            @media screen and (max-width: 500px) {
+                right: 140px;
+            }
+        }
+
+        .logout-button {
+            background-color: #00770c;
+            position        : absolute;
+            border-radius   : 30px;
+            right           : 12%;
+            bottom          : 15px;
+            width           : 120px;
+            height          : 40px;
+            font-size       : 1.1em;
+
+            &:hover {
+                background-color: #224b26;
+            }
+
+            @media screen and (max-width: 500px) {
+                right: 15px;
+            }
+        }
+    }
+
+    .navigation-container {
+
+        .container {
+            padding: 0;
+
+            .navigation-bar {
+                background-color: #85c697 !important;
+
+                @media screen and (min-width: 1000px) {
+                    height: 60px;
+                }
+
+
+                .navbar-brand {
+                    color      : #525c53;
+                    font-weight: 600;
+                    font-size  : 1.5em;
+                    margin     : 0;
+                    margin-left: 3%;
+
+                    &:hover {
+                        color: black;
+                    }
+                }
+
+                .navbar-toggler {
+                    margin-right: 3%;
+                }
+
+                .navbar-collapse {
+                    margin-left: 3%;
+
+                    .navbar-nav {
+
+                        @media screen and (min-width: 1000px) {
+                            display        : flex;
+                            width          : 77%;
+                            justify-content: flex-end;
+
+                        }
+
+                        .nav-link {
+                            color        : #E6EBDB !important;
+                            font-size    : 1.3em;
+                            border-radius: 10px;
+
+                            &:hover {
+                                color: #13470A !important;
+                            }
+
+                            @media screen and (min-width: 1000px) {
+                                font-style: italic;
+                                width     : 100px;
+                                text-align: center;
+                                height    : 50px;
+
+                                &.active {
+                                    background-color: #468C4D;
+                                }
+                            }
+                        }
+                    }
+
+                    .book-btn-container {
+                        @media screen and (min-width: 1000px) {
+                            width   : 80px;
+                            position: relative;
+                        }
+
+                        .navbar-brand {
+                            font-weight: 600;
+                            color      : #464646;
+                            z-index    : 1;
+                            margin-left: 0;
+
+                            &:hover {
+                                color: rgb(0, 0, 0);
+                            }
+
+
+                            @media screen and (min-width: 1000px) {
+
+                                background-color: #3CB9C1;
+                                font-size       : 1.5em;
+                                border-radius   : 10px;
+                                padding         : 22px 30px;
+                                position        : absolute;
+                                right           : 11px;
+                                bottom          : -39px;
+                                margin          : 0;
+
+                                &:hover {
+                                    background-color: #41a8c7;
+                                    color           : rgb(0, 0, 0);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+
+
+        }
+
+    }
+}

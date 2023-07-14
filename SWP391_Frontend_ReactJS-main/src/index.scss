@@ -1,0 +1,294 @@
+body {
+  overflow: hidden;
+  padding : 0;
+  margin  : 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing : antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color       : #E6EBDB;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.order-summary {
+  background-color: white;
+  border-radius   : 10px;
+  padding         : 3%;
+  font-size       : 1.1em;
+
+  .bird-number {
+    display        : flex;
+    justify-content: space-between;
+    margin-bottom  : 5%;
+  }
+
+  .route {
+    display        : flex;
+    justify-content: space-between;
+    margin-bottom  : 5%;
+  }
+
+  .distance {
+    display        : flex;
+    justify-content: space-between;
+    margin-bottom  : 5%;
+  }
+
+  .payment {
+    display        : flex;
+    justify-content: space-between;
+    margin-bottom  : 5%;
+  }
+
+  .package {
+    display        : flex;
+    justify-content: space-between;
+    margin-bottom  : 5%;
+  }
+
+  .handling-fee {
+    display        : flex;
+    justify-content: space-between;
+    margin-bottom  : 5%;
+  }
+}
+
+.form-label {
+  font-weight: 500;
+}
+
+.add-new-status {
+  background-color: aliceblue;
+  border-radius   : 15px;
+  padding         : 2%;
+  border          : 1px solid rgb(193, 218, 240);
+  margin-top      : 4%;
+
+  .add-status-title {
+    font-weight  : 500;
+    font-size    : 1.1em;
+    margin-bottom: 2%;
+  }
+}
+
+.delete-confirm {
+  background-color: aliceblue;
+  border-radius   : 15px;
+  padding         : 2%;
+  border          : 1px solid rgb(193, 218, 240);
+  margin-top      : 3%;
+
+  .delete-title {
+    font-weight  : 500;
+    font-size    : 1.1em;
+    margin-bottom: 1%;
+  }
+
+  .timestamp {
+    margin-bottom: 2%;
+  }
+}
+
+.edit-status {
+  background-color: aliceblue;
+  border-radius   : 15px;
+  padding         : 2%;
+  border          : 1px solid rgb(193, 218, 240);
+  margin          : 4% 0;
+
+  .edit-status-title {
+    font-weight  : 500;
+    font-size    : 1.1em;
+    margin-bottom: 2%;
+  }
+}
+
+.add-new-progress {
+  background-color: aliceblue;
+  border-radius   : 15px;
+  padding         : 2%;
+  border          : 1px solid rgb(193, 218, 240);
+  margin-top      : 4%;
+
+  .add-progress-title {
+    font-weight  : 500;
+    font-size    : 1.1em;
+    margin-bottom: 2%;
+  }
+}
+
+.edit-progress {
+  background-color: aliceblue;
+  border-radius   : 15px;
+  padding         : 2%;
+  border          : 1px solid rgb(193, 218, 240);
+  margin          : 4% 0;
+
+  .edit-progress-title {
+    font-weight  : 500;
+    font-size    : 1.1em;
+    margin-bottom: 2%;
+  }
+}
+
+.note-estimate {
+  font-style: italic;
+  margin-top: 4%;
+
+  span {
+    &:hover {
+      color: #707070;
+    }
+  }
+}
+
+.my-modal {
+  min-width: 85%;
+
+  .updt-status {
+    width : 50%;
+    margin: 3%;
+
+    .row {
+      display    : flex;
+      align-items: flex-end;
+    }
+  }
+
+  .trip-orders {
+    width     : 70%;
+    margin    : 0 auto;
+    margin-top: 5%;
+  }
+
+  .assign-container {
+    padding: 2%;
+
+    .select-trip-title {
+      font-size  : 1.3em;
+      font-weight: 600;
+      margin-top : 2%;
+    }
+
+    .select-trip {
+      margin-top: 3%;
+      min-width : 300px;
+
+      .css-13cymwt-control {
+        border-radius: 20px;
+      }
+    }
+
+    .trip-detail-title {
+      font-size  : 1.3em;
+      font-weight: 600;
+      margin     : 3% 0;
+    }
+
+    .select-order-title {
+      font-size  : 1.3em;
+      font-weight: 600;
+      margin-top : 2%;
+    }
+
+    .select-order {
+      margin-top: 3%;
+      min-width : 300px;
+
+      .css-13cymwt-control {
+        border-radius: 20px;
+      }
+
+    }
+
+    .detail-title {
+      font-size  : 1.3em;
+      font-weight: 600;
+      margin     : 2% 0;
+    }
+
+    .order-detail {
+      .table {
+        background-color: white;
+        text-align      : center;
+
+        .add-order-icon {
+          cursor     : pointer;
+          color      : rgb(66, 194, 66);
+          font-size  : 1.3em;
+          line-height: 23px;
+
+          &:hover {
+            color: rgb(51, 158, 51);
+          }
+        }
+      }
+    }
+
+    .added-container {
+      margin: 0 auto;
+
+      .added-list-title {
+        font-size    : 1.3em;
+        font-weight  : 600;
+        margin-top   : 2%;
+        margin-bottom: 2%;
+      }
+
+      .added-list {
+        .table {
+          text-align: center;
+        }
+
+        .remove-btn {
+          cursor     : pointer;
+          color      : rgb(255, 0, 0);
+          font-size  : 1.3em;
+          line-height: 23px;
+
+          &:hover {
+            color: rgb(180, 6, 6);
+          }
+        }
+      }
+    }
+
+    .confirm-container {
+      text-align: right;
+
+      .confirm-btn {
+        margin-top: 4%;
+      }
+    }
+  }
+
+  .auto-container {
+    margin-top: 2%;
+    padding   : 2%;
+
+    .option {
+      width : 60%;
+      margin: 0 auto;
+
+      .option-title {
+        font-size    : 1.2em;
+        font-weight  : 600;
+        margin-bottom: 2%;
+      }
+
+      .option-body {
+        margin-bottom: 5%;
+
+        .apply-btn {
+          text-align: right;
+        }
+      }
+    }
+
+  }
+}

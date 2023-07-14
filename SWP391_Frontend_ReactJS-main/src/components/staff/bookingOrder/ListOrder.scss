@@ -1,0 +1,84 @@
+.list-order-container {
+  margin-top   : 4%;
+  width        : 100%;
+  padding      : 0 2%;
+  margin-bottom: 5%;
+
+  .title {
+
+    font-size       : 2em;
+    font-weight     : 600;
+    margin-bottom   : 2%;
+    background-color: #26a178;
+    color           : #ffffff;
+    border-radius   : 45px;
+    padding         : 1%;
+    width           : 30%;
+    min-width       : 250px;
+    text-align      : center;
+  }
+
+  .order-list {
+    .filter-title {
+      font-size    : 1.3em;
+      font-weight  : 600;
+      margin-bottom: 1%;
+    }
+
+    .form-select {
+      width        : 30%;
+      margin-bottom: 3%;
+    }
+
+    .css-13cymwt-control {
+      width: 50%;
+    }
+
+    .css-t3ipsp-control {
+      width: 50%;
+    }
+
+    .css-1nmdiq5-menu {
+      width: 50%;
+    }
+
+    .search-title {
+      font-size    : 1.3em;
+      font-weight  : 600;
+      margin-bottom: 1%;
+    }
+
+    .search-order {
+      width: 30%;
+    }
+
+    width           : 95%;
+    background-color: #ffffff;
+    padding         : 2%;
+    border-radius   : 15px;
+
+  }
+
+  table {
+    width           : 100%;
+    border-collapse : collapse;
+    margin-top      : 2%;
+    background-color: #fff;
+    border          : 1px solid #cfcdcd;
+
+    button {
+      font-size: 0.85vw;
+    }
+
+    th,
+    td {
+      padding   : 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+      font-weight     : 600;
+    }
+  }
+}
