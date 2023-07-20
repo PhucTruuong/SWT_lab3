@@ -264,6 +264,7 @@ const PageRouter = () => {
         draggable
         pauseOnHover={false}
         theme="light"
+        data-testid="Alert"
       />
     </>
   );

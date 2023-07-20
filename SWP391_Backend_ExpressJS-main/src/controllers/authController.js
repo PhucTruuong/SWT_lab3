@@ -23,7 +23,7 @@ const postLogin = async (req, res, next) => {
   if (rows.length === 0) {
     throw new AppError(
       AUTHENTICATION_FAIL,
-      "Incorrect email or password",
+      "Incorrect email or password.",
       200,
       delay
     );
